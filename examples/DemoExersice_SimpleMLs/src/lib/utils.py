@@ -10,5 +10,32 @@ def currDateTime():
     return dt.datetime.now().strftime("%Y/%m/%dT%H:%M:%S")
 
 
+# JSON Exercises
+def json_reader(path):
+    pass
+
+
+def json_writer(dir_path, filename, data):
+    pass
+
+
+# YAML Exercises
+def yaml_reader(path):
+    pass
+
+
+def yaml_writer(dir_path, filename, data):
+    pass
+
+
+# CSV Exercises
+def csv_reader(path):
+    pass
+
+
+def csv_writer(dir_path, filename, data):
+    pass
+
+
 if __name__ == "__main__":
     print(f"Current DateTime: {currDateTime()}")
